@@ -1,0 +1,38 @@
+body {
+	text-align: left;
+	margin: 20;
+	background - image : url ("AfficheFond.jpg");
+	background-attachment:fixed;
+	background - repeat : no - repeat ;
+    color : black ; /* Le texte de la page sera noir */
+	font - family : serif , " Arial Black ", Arial , Verdana , serif ;
+}
+
+fieldset /* les cadres autour des modules de choix */
+{
+margin : 100 px ;
+background - image : url ("AfficheFond.jpg");
+}
+
+legend /* titre de section */
+{
+	font - weight : bold ;
+	background - color : white ;
+	opacity : 0.3;
+	color : rgb(0,43,133);
+	font - size : large ;
+}
+
+figure {
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	background: #D7FFE1;
+}
+
+em 
+{
+	border : 3px blue double ;
+	font-weigh: bold;
+	color:red;
+}
